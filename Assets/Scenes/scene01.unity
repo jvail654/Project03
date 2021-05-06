@@ -347,6 +347,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   camera1: {fileID: 963194227}
+  enemy: {fileID: 894361920}
   hitbox: {fileID: 894361920}
 --- !u!143 &662099583
 CharacterController:
@@ -819,8 +820,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.64, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 662099584}
@@ -876,7 +877,6 @@ MonoBehaviour:
   currentTarget: {fileID: 894361916}
   s: {fileID: 1244185563}
   m: {fileID: 8300000, guid: 01f6fcd399f0f784296aba1e0dc05191, type: 3}
-  moveSpeed: 100
 --- !u!4 &1244185562
 Transform:
   m_ObjectHideFlags: 0
